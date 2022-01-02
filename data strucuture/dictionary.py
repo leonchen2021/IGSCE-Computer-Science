@@ -1,7 +1,7 @@
 #create a dictionary (key-value-pairs) aka "HashMap, Map, HashTable"
 assignment_scores = {"Mars": 90, "Amy": 93, "Rain": 98, "Charlie": 98 }
 amy_assignment_score = assignment_scores.get("Amy")
-print("Amy assignment score", assignment_scores)
+print("Amy assignment score", amy_assignment_score)
 
 
 #creat a dictionary using built in dict function (same thing, different)
