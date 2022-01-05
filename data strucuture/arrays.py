@@ -13,6 +13,3 @@ for score in test_scores:
 #get length of the array
 length = len(test_scores)
 print("length of the array(number of scores): ", length)
-
-average_temperture = array("i", [50, 40, 20,43])
-print (average_temperture)
