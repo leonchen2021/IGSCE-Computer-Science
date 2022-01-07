@@ -12,7 +12,8 @@ print (student_scores)
 score = student_scores.get("Amini")
 print ("Mr. Amini", score)
 #create the dictionary that stores the students names and their pet's names
-student_pets = dict(Adrain=["pet1", "pet2", "pet3"], Leon=["pet1", "pet2", "pet3"], Amini=["pet1", "pet2", "pet3"])
+student_pets = dict(Adrain=["pet2", "pet1", "pet3"], Leon=["pet1", "pet2", "pet3"], Amini=["pet1", "pet2", "pet3"])
 pet_name = student_pets.get("Amini")
+pet_name.sort()
 print (pet_name)
 
