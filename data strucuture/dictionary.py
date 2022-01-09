@@ -40,3 +40,14 @@ student_siblings = student_siblings.get("Howard")
 student_siblings.sort()
 for siblings in student_siblings:
     print(siblings)
+
+
+student_pets = {
+    "Adrian": ["pet 1", "pet 2", "pet 3"],
+    "mars": ["pet 1", "pet 2", "pet 3"]
+}
+
+student_pet_names = dict(
+    Adrian=["pet 1 , pet 2, pet3"], 
+    Charlie=["pet1, pet2, pet3"]
+    )
