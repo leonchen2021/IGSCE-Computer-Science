@@ -32,3 +32,8 @@ list_two = [[5,7,9], [5,4,7], [9,7,3]]
 for new_bocket in list_two:
     for result in new_bocket:
         print (result)
+
+
+#here is the test for new task, meessage pop into the original repostory
+my_age = 17
+print ("Leon age", my_age)
