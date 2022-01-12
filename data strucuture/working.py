@@ -52,22 +52,3 @@ def binary_search(sorted_list, target):
     return -1 
 result = binary_search(sorted_list, target)
 print('the target number is at list index:', result)
-
-#keep working
-sorted_list = [1, 5, 8, 9, 10, 21, 56, 100]
-target = 100
-def binary_search(sorted_list, target):
-    left_idx = 0
-    right_idx = len(sorted_list) - 1
-    print(right_idx)
-    while(left_idx <= right_idx):
-        middle_idx = int((right_idx + left_idx) / 2)
-    if(sorted_list[middle_idx] == target):
-        return middle_idx
-    elif(target < sorted_list[middle_idx]):
-        right_idx = middle_idx - 1
-    else:
-        left_idx = middle_idx + 1
-    return - 1
-result = binary_search(sorted_list, target)
-print('the target number is at list index:', result)
