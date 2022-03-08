@@ -68,11 +68,5 @@ the_student_name = the_student_name.get("Adrain")
 for score in the_student_name:
     print(score)
 
-import time
 
-i = 0
-start = time.time()
-while time.time() - start < 1:
-    i+=1
-print("I counted to {} in one second.".format(i))
 
